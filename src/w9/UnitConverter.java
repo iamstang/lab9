@@ -14,8 +14,20 @@ public class UnitConverter {
 	/*
 	 * return all unit in length
 	 */
-	public Unit[] getUnits(){
+	public Unit[] getLengths(){
 		
 		return Length.values();
+	}
+	
+	public Unit[] getWeights(){
+		return Weight.values();
+	}
+	
+	public Unit[] getCurrency(){
+		return Currency.values();
+	}
+	
+	public Unit[] getTime(){
+		return Time.values();
 	}
 }
